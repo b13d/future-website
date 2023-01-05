@@ -1,0 +1,218 @@
+@media screen and (min-width: 1100px) {
+    .container {
+        /*background: url("../images/bg-header.jpg") no-repeat;*/
+        border: 1px solid red;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .container {
+        /*background: url("../images/bg-header.jpg") no-repeat;*/
+        border: 1px solid red;
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+    .nav-header-image {
+        display: none;
+    }
+
+    .future-block {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .smart-home {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+
+    .ul-header li > a {
+        font-size: 18px;
+        color: white;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+
+    .text-about > a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .advantages {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .security-mode-type {
+        justify-content: start;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        margin: 0 auto 110px auto;
+        padding: 100px 50px;
+        align-items: center;
+    }
+
+    .monitor-home {
+        flex-direction: column-reverse;
+    }
+
+    .telephone {
+        top: 0;
+        background-size: contain;
+        background-position: center;
+        min-width: 0;
+        min-height: 0;
+        width: 345px;
+        height: 680px;
+    }
+
+    .telephone-element {
+        max-width: 1073px;
+        gap: 16px;
+    }
+
+    .telephone-element > img[alt = "image-home"] {
+        max-width: 220px;
+    }
+
+    .telephone-element > .btn{
+        padding: 5px 32px;
+        width: 65%;
+        text-align: center;
+    }
+
+    .last-smart-home {
+        flex-direction: column-reverse;
+    !important;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .ul-header li > a,
+    .nav-header > input {
+        display: none;
+    }
+
+    .nav-header {
+        padding: 20px;
+    }
+
+    .future-block,
+    .smart-home {
+        padding: 20px;
+    }
+
+    .future-block > .text-about > h1 {
+        font-size: 50px;
+    }
+
+    .text-about > h2 {
+        font-size: 30px;
+    }
+
+    .text-about > p {
+        font-size: 15px;
+    }
+
+    .text-about > a {
+        display: block;
+        text-align: center;
+        padding: 5px 10px;
+        font-size: 16px;
+    }
+
+    .future-block *,
+    .smart-home * {
+        width: 100%;
+        text-align: center;
+    }
+
+    .advantages {
+        padding: 0;
+    }
+
+    .advantage h2 {
+        letter-spacing: 3px;
+        font-size: 26px;
+    }
+
+    .advantage p {
+        letter-spacing: 3px;
+        font-size: 15px;
+    }
+
+    .security-mode > h1 {
+        text-align: center;
+        font-size: 30px;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 3px;
+    }
+
+    .security-mode-type {
+        padding: 20px 0 0 0;
+    }
+
+    .security-mode > p {
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+        margin: 0 auto;
+    }
+
+
+
+    .last-smart-home > .text-about > h1 {
+        font-size: 30px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .last-smart-home > .text-about > p {
+        font-size: 15px !important;
+    }
+
+    .image-smart-home img {
+        height: auto;
+    }
+
+    .monitor-home {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .telephone,
+    .telephone-element{
+        width: 100%;
+    }
+
+    .monitor-home > .text-about{
+        width: 100%;
+    }
+
+    .monitor-home > .text-about  h1{
+        font-size: 45px;
+    }
+
+    .block{
+        padding:26px 68px;
+    }
+
+    .blocks{
+        gap: 20px;
+    }
+
+    .btn{
+        font-size: 16px;
+        width: 100%;
+    }
+
+}
+
