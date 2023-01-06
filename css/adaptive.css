@@ -1,7 +1,5 @@
 @media screen and (min-width: 1100px) {
     .container {
-        /*background: url("../images/bg-header.jpg") no-repeat;*/
-        border: 1px solid red;
         max-width: 1440px;
         margin: 0 auto;
     }
@@ -9,8 +7,6 @@
 
 @media screen and (max-width: 1100px) {
     .container {
-        /*background: url("../images/bg-header.jpg") no-repeat;*/
-        border: 1px solid red;
         max-width: 1100px;
         margin: 0 auto;
     }
@@ -23,6 +19,14 @@
         flex-direction: column-reverse;
         align-items: center;
         gap: 40px;
+    }
+
+    .future-block, .smart-home, .monitor-home{
+        padding: 0px 70px 90px 100px;
+    }
+
+    .telephone-element > .btn{
+        font-size: 22px;
     }
 
     .smart-home {
@@ -56,7 +60,7 @@
         display: flex;
         flex-direction: column;
         gap: 50px;
-        margin: 0 auto 110px auto;
+        margin: 0 auto 35px auto;
         padding: 100px 50px;
         align-items: center;
     }
@@ -64,6 +68,25 @@
     .monitor-home {
         flex-direction: column-reverse;
     }
+
+    .about-us{
+        flex-direction: column;
+    }
+
+    .about-us > .text-about > h2{
+        font-size: 70px;
+        font-family: 'Montserrat SemiBold',sans-serif;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+    }
+
+    .about-us > .text-about > p{
+        margin-bottom: 35px;
+        font-size: 16px;
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 1px;
+    }
+
 
     .telephone {
         top: 0;
@@ -86,13 +109,33 @@
 
     .telephone-element > .btn{
         padding: 5px 32px;
-        width: 65%;
+        width: auto;
         text-align: center;
     }
 
     .last-smart-home {
         flex-direction: column-reverse;
     !important;
+    }
+
+    .services{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-info {
+        padding: 20px;
+
+        display: flex;
+        justify-content: normal;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+
+    .strip{
+        bottom: 20px;
     }
 }
 
@@ -114,7 +157,9 @@
 
     .future-block > .text-about > h1 {
         font-size: 50px;
+        line-height: normal;
     }
+
 
     .text-about > h2 {
         font-size: 30px;
@@ -159,7 +204,7 @@
     }
 
     .security-mode-type {
-        padding: 20px 0 0 0;
+        padding: 20px 20px 0 20px;
     }
 
     .security-mode > p {
@@ -199,6 +244,7 @@
 
     .monitor-home > .text-about  h1{
         font-size: 45px;
+        margin-bottom: 20px!important;
     }
 
     .block{
@@ -210,9 +256,85 @@
     }
 
     .btn{
-        font-size: 16px;
-        width: 100%;
+        font-size: 16px!important;
+        width: auto!important;
     }
 
+    .bottom-info-monitor {
+        margin: 0 auto;
+    }
+
+    .security-mode {
+        padding: 0!important;
+    }
+
+
+    .about-us > .text-about > h2{
+        font-size: 35px;
+        font-family: 'Montserrat SemiBold',sans-serif;
+        letter-spacing: 5px;
+        margin-bottom: 10px;
+    }
+
+    .about-us > .text-about > p{
+        margin-bottom: 20px;
+        font-size: 16px;
+        font-family: 'Montserrat',sans-serif;
+        letter-spacing: 1px;
+    }
+
+    .contact-1 a, .contact-2 a, .contact-3 a
+    {
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .about-us{
+        padding: 20px;
+    }
+
+    .h1-service{
+        text-align: center;
+        padding: 35px 0;
+        font-size: 25px;
+        letter-spacing: 5px;
+        font-family: "Montserrat SemiBold", sans-serif;
+    }
+
+    .check-your-home{
+        min-height: 700px;
+        padding: 20px;
+        background: linear-gradient(rgba(179, 12, 131, 0.5),rgba(179, 12, 131, 1));
+        box-shadow: 0px 5px 25px 1px rgb(12 7 24 / 24%);
+    }
+
+    footer{
+        min-height: 730px;
+    }
+
+
+    .footer-info {
+        text-align: center;
+        padding: 20px;
+
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        justify-content: normal;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .footer-info h2{
+        margin-bottom: 10px;
+
+    }
+
+    .bg-fon{
+        display: none;
+    }
 }
+
 
